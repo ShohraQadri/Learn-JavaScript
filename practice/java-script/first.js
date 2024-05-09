@@ -38,3 +38,27 @@ for (let i = 0; i < Name.length; i++) {
     // }
     console.log(pattern);
 }
+// ****************
+
+
+function func() {
+    let str = "shohra"
+    return str.split("").reverse().join("");
+}
+console.log(func());
+
+
+// *************
+
+
+function printAndReverse() {
+    let str = "Ranjani";
+    console.log(str);
+    let reversedStr = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        reversedStr += str[i];
+    }
+    console.log(reversedStr);
+}
+
+printAndReverse();
