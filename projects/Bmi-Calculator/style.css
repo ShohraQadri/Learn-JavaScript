@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 2px solid;
+    width: 40%;
+    margin: 2rem auto;
+    padding: 1rem;
+    position: relative;
+
+}
+
+button,
+h1 {
+    text-align: center;
+}
+
+.note {
+    color: red;
+    margin: 1rem 0;
+}
+
+.mt-2 {
+    margin: 1rem 0;
+}
+
+
+#clock {
+    border: 2px solid;
+    border-radius: 5px;
+    width: 60px;
+    padding: 1rem;
+    background-color: orange;
+    color: white;
+}
+
+.clock-block {
+    position: absolute;
+    right: 1rem;
+}
