@@ -12,9 +12,11 @@ printPattern(5);
 let greeting = "Welcome";
 for (let i = 1; i <= greeting.length; i++) {
     let pattern = "";
-    for (let j = 0; j < i; j++) {
-        pattern += greeting[j] + " ";
-    }
+    pattern += greeting.split("").splice(0, i + 1).join(" ");
+
+    // for (let j = 0; j < i; j++) {
+    //     pattern += greeting[j] + " ";
+    // }
     console.log(pattern);
 }
 
