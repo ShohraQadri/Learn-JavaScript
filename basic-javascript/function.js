@@ -34,14 +34,25 @@ handelobject({
     number: 9089876544,
 })
 
-function one(){
-const username = "shohra";
+function one() {
+    const username = "shohra";
 
-function two(){
-    const fullname = "qadri"
-    console.log(username);
-}
-two()
-// console.log(fullname);
+    function two() {
+        const fullname = "qadri"
+        console.log(username);
+    }
+    two()
+    // console.log(fullname);
 }
 one()
+
+
+// *****************
+
+function sum(a, b) {
+    console.log("function sum(a, b) ", a + b)
+    return a + b;
+
+} sum(1, '2');
+
+
